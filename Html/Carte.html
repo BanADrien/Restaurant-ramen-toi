@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramen-Toi</title>
+    <link rel="stylesheet" href="../Css/resto.css">
+    <link rel="icon" type="image/jpeg" href="img/Logo C/logo-transparent-png.png">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">
+            <img class="icone" src="../img/Logo C/logo-transparent-png.png" alt="logo" width="100">
+        </a>
+        <a href="index.html">
+            <button class='br'>Accueil</button>
+        </a>
+
+
+        <button class='br'>Menu</button>
+
+        <a href="Actualités.html">
+            <button class='br'>Actualités</button>
+        </a>
+        <a href="Avis.html">
+            <button class='br'>Avis</button>
+        </a>
+        <a href="Contact.html">
+            <button class='br'>Reserver</button>
+        </a>
+        <a href="Contact.html">
+            <button class='br' id="num">
+                <div class="numero">
+                    <img class="tel" src="../img/telblanc.png" alt="">
+                    <p class="ntm">07 69 92 97 96</p>
+                </div>
+            </button>
+        </a>
+
+
+    </nav>
+    <img class="fond" src="../img/Rammmen.png" alt="fond">
+
+    <div class="pose" id="pose">
+        <div class="menu" id="menu">
+            <button class="choixmenuselect">Entrée</button>
+            <button class="choixmenu">PLat</button>
+            <button class="choixmenu">Accompagnement</button>
+            <button class="choixmenu">Boisson</button>
+            <button class="choixmenu">Dessert</button>
+
+        </div>
+        <div class="Categorie" id="Entrée">
+            <div id="Ramen">
+                <img class="sashimage" src="../img/31a62e563d4306cb79e4023f71857f79.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Sashimi de</p>
+                    <select class="parfum" id="parfum" name="parfum">
+                        <option value="Sashimi de Saumon">Saumon</option>
+                        <option value="Sashimi de Thon">Thon</option>
+                    </select>
+                    <div class="prix">
+                        <p class="description" id="valprix">6</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/Sushi.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Sushi / Maki</p>
+                    <select class="parfum" id="parfum" name="parfum">
+                        <option value="Sushi">Sushi</option>
+                        <option value="Maki">Maki</option>
+                        <option value="Sushi & Maki">Sushi & Maki</option>
+
+                    </select>
+                    <div class="prix">
+                        <p class="description" id="valprix">7</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Ramen">
+                <img class="sashimage" src="../img/miso.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Soupe Miso</p>
+                    <div class="prix">
+                        <p class="description">4</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/chou.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Salade de chou</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">3</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/onigiri.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Onigiri</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">5</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="Categorie" id="Plat">
+            <div class="section">
+                <button class="choixplatselect" id="choix">Ramens</button>
+                <button class="choixplat" id="composition">Autre plats</button>
+            </div>
+            <div class="choixpg" id="choixg">
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramenporc.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen de Porc</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">11</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramenboeuf.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen de Boeuf</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">11</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramenpoulet.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen de Poulet</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">11</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramencrevette.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen au crevettes</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">11</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramencanard.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen de canard laqué</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">12</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/ramenvegie.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Ramen végetarien</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">10</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="Platcomposition">
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/bobun.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">bo bun au boeuf</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">8</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/poulet laqué.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Poulet Laqué</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">9</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/curry.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Curry</p>
+                        <select class="parfum" id="parfum" name="parfum">
+                            <option value="piquant">piquant</option>
+                            <option value="pas piquant">pas piquant</option>
+                        </select>
+                        <div class="prix">
+                            <p class="description" id="valprix">9</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/katsudon.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">katsudon</p>
+                        <div class="prix">
+                            <p class="description" id="valprix">8</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ramen">
+                    <img class="sashimage" src="../img/chilli.jpg" alt="">
+                    <div class="recadre">
+                        <p class="description" id="val">Chili Con Carne</p>
+                        <select class="parfum" id="parfum" name="parfum">
+                            <option value="piquant">piquant</option>
+                            <option value="pas piquant">pas piquant</option>
+                        </select>
+                        <div class="prix">
+                            <p class="description" id="valprix">8</p>
+                            <p class="description">€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Categorie" id="acc">
+            <div id="Ramen">
+                <img class="sashimage" src="../img/gyoza.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">gyoza</p>
+                    <select class="parfum" id="parfum" name="parfum">
+                        <option value="Gyoza au Porc">Porc</option>
+                        <option value="Gyoza Végétarien">Végétarien</option>
+                    </select>
+                    <div class="prix">
+                        <p class="description" id="valprix">5</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/ravioli.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Raviolis au crevettes</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">5</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/chou.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Salade de chou</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">3</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/brochette boeuf fromage.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">brochette de boeuf au fromage</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">6</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/Fritte.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Des bonne frites américaine</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">4</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Categorie" id="boisson">
+            <div id="Ramen">
+                <img class="sashimage" src="../img/eau.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">eau</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">1</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/Sake.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Sake</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">8</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/cocalogo.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Coca cola</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">2</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/orangina.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Orangina</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">2</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/fuzetea.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">fuzetea</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">2</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/7up.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">7up</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">2</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="Categorie" id="dessert">
+            <div id="Ramen">
+                <img class="sashimage" src="../img/mochi.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Mochi parfum au choix</p>
+                    <select class="parfum" id="parfum" name="parfum">
+                        <option value="Mochi parfum vanille">Vanille</option>
+                        <option value="Mochi parfum Kiwi">Kiwi</option>
+                        <option value="Mochi parfum Mangue">Mangue</option>
+                        <option value="Mochi parfum Matcha">Matcha</option>
+                        <option value="Mochi parfum Haricot rouge">Haricot rouge</option>
+                        <option value="Mochi parfum Sésame noir">Sésame noir</option>
+                        <option value="Mochi parfum Taro">Taro</option>
+                    </select>
+                    <div class="prix">
+                        <p class="description" id="valprix">4</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/dango.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Dango</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">5</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/flan.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Flan au caramel</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">2</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/perle.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">Perle du japon à l'ananas</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">4</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+            <div id="Ramen">
+                <img class="sashimage" src="../img/dorayaki.jpg" alt="">
+                <div class="recadre">
+                    <p class="description" id="val">dorayaki</p>
+                    <div class="prix">
+                        <p class="description" id="valprix">3</p>
+                        <p class="description">€</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+    <script src="../JS/Carte.js"></script>
+</body>
+
+</html>
